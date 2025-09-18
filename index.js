@@ -1,3 +1,10 @@
+window.updateScore = function (team, points) {
+  const el = document.getElementById(`${team}-score`);
+  const curr = Number(el.textContent) || 0;
+  el.textContent = curr + points;
+
+}
+
 
 let homePoints = document.getElementById("home-score");
 let guestPoints = document.getElementById("guest-score");
