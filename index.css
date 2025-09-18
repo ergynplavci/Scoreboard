@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    background-color: #1B244A;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.score {
+    background-color: #080001;
+    width: 180px;
+    height: 140px;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.container-adding {
+    display: flex;
+    justify-content: space-evenly;
+    width: 180px;
+}
+
+.adding-number {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 90px;
+    font-family: cursedfont;
+    margin-top: 90px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: cursedfont;
+}
+
+@font-face {
+    font-family: cursedfont;
+    src: url("/CursedTimerUlil-Aznm.ttf")
+}
